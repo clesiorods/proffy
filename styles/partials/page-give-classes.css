@@ -52,7 +52,7 @@
 #page-give-classes fieldset legend button:hover {
   transform: translateY(-3px);
   color: var(--color-primary-dark);
-  text-shadow: 2px 2px 2px rgb(194, 194, 194);
+  text-shadow: 2px 2px 2px rgb(224, 224, 224);
 }
 
 
@@ -146,6 +146,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  #page-give-classes main footer button {
+    margin-top: 0;
+  
+    width: 200px;
   }
 
 }
